@@ -51,9 +51,9 @@ declare namespace OAuth2Server {
      */
     class Request {
         body?: any;
-        headers?: Record<string, string>;
-        method?: string;
-        query?: Record<string, string>;
+        headers: Record<string, string>;
+        method: string;
+        query: Record<string, string>;
 
         /**
          * Instantiates Request using the supplied options.
